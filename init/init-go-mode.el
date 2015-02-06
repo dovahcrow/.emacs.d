@@ -1,0 +1,6 @@
+;(global-set-key (kbd "<tab>") 'auto-complete)
+					;(require 'go-mode-autoloads)
+;(add-hook 'go-mode-hook (lambda ()
+;			  (set (make-local-variable 'company-backends) '(company-go))
+;			  (company-mode)
+;			  (global-set-key [24 7] 'company-complete)))

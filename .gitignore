@@ -1,0 +1,8 @@
+/el-get
+/elpa
+/eshell
+/auto-save-list
+/ac-comphist.dat
+/project-explorer-cache
+*.*~
+*.elc
