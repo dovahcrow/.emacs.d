@@ -195,6 +195,9 @@
 ;; eshell to f4
 (global-set-key [f4] 'eshell)
 
+;; set region comment
+(global-set-key (kbd "C-;") 'comment-or-uncomment-region)
+
 ;; move cursor
 (global-set-key (kbd "M-C-<up>") 'windmove-up)
 (global-set-key (kbd "M-C-<down>") 'windmove-down)
@@ -222,5 +225,5 @@
 ;; tabbar mode
 (tabbar-mode t)
 
-(add-to-list 'load-path "~/.emacs.d/custom")
-(require 'racer)
+;; org ident-mode
+(setq org-startup-indented t)

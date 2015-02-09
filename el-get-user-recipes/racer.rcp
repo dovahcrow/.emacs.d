@@ -1,0 +1,4 @@
+(:name racer
+       :type http
+       :url "https://raw.githubusercontent.com/phildawes/racer/master/editors/racer.el"
+       :description "racer for rust completion")

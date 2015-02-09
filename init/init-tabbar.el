@@ -1,7 +1,7 @@
-(global-set-key (kbd "<C-S-up>")    'tabbar-backward-group)
-(global-set-key (kbd "<C-S-down>")  'tabbar-forward-group)
-(global-set-key (kbd "<C-S-left>")  'tabbar-backward-tab)
-(global-set-key (kbd "<C-S-right>") 'tabbar-forward-tab)
+(global-set-key (kbd "<C-end>")    'tabbar-backward-group)
+(global-set-key (kbd "<C-home>")  'tabbar-forward-group)
+(global-set-key (kbd "<C-prior>")  'tabbar-backward-tab)
+(global-set-key (kbd "<C-next>") 'tabbar-forward-tab)
 
 ;; no buttons
 (setq
@@ -42,7 +42,7 @@
   "tabbar group"
   (list
    (cond
-    ((memq major-mode '(shell-mode sh-mode))
+    ((memq major-mode '(shell-mode sh-mode eshell-mode))
      "shell"
      )
     ((memq major-mode '(c-mode c++-mode))
@@ -63,6 +63,15 @@
      )
     ((eq major-mode 'emacs-lisp-mode)
      "Emacs-lisp"
+     )
+    ((eq major-mode 'erc-mode)
+     "Chat"
+     )
+    ((memq major-mode '(julia-mode julia inferior-ess-mode ess-mode))
+     "julia"
+     )
+    ((string-equal "*ESS*" (buffer-name))
+     "julia"
      )
     ((memq major-mode
 	   '(tex-mode latex-mode text-mode snippet-mode org-mode moinmoin-mode markdown-mode))

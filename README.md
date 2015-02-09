@@ -13,3 +13,11 @@
 (add-to-list 'load-path "~/.emacs.d/init")
 (require 'init-init)
 ````
+
+* export the pachage list
+
+```
+`(setq my-packages
+	      ',(mapcar #'el-get-as-symbol
+			                        (el-get-list-package-names-with-status "installed")))
+```						

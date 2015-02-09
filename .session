@@ -1,0 +1,16 @@
+;;; Automatically generated on Fri Feb  6 22:59:27 2015
+;;; Invoked by wooya@localhost using 24.4.1
+(setq-default kill-ring '(#("type ThemeMap map[string]strings
+" 0 4 (face font-lock-keyword-face fontified t) 4 5 (fontified t) 5 6 (face font-lock-type-face fontified t) 6 7 (face font-lock-type-face fontified t) 7 8 (face font-lock-type-face fontified t) 8 9 (face font-lock-type-face fontified t) 9 10 (face font-lock-type-face fontified t) 10 11 (face font-lock-type-face fontified t) 11 12 (face font-lock-type-face fontified t) 12 13 (face font-lock-type-face fontified t) 13 14 (fontified t) 14 17 (face font-lock-keyword-face fontified t) 17 18 (fontified t) 18 24 (face font-lock-type-face fontified t) 24 25 (fontified t) 25 32 (face font-lock-type-face fontified t) 32 33 (fontified t)) #("	}
+" 0 2 (fontified t) 2 3 (fontified t)) #("		
+" 0 2 (fontified t) 2 3 (fontified t)) #("	for k, _ := range theme {
+" 0 1 (fontified t) 1 4 (face font-lock-keyword-face fontified t) 4 13 (fontified t) 13 18 (face font-lock-keyword-face fontified t) 18 26 (fontified t) 26 27 (fontified t)) #("	s
+" 0 2 (fontified t) 2 3 (fontified t))))
+(setq-default session-file-alist '(("~/go/src/templateSystem/models/themes/helper.go" 419 nil 1 nil nil 346 (overwrite-mode)) ("~/go/src/templateSystem/models/themes/bare1.go" 168 108 1 nil nil 168 (overwrite-mode))))
+(setq-default file-name-history '("~/go/src/templateSystem/models/site.go" "~/go/src/templateSystem/models/db.go" "~/go/src/templateSystem/models/themes/helper.go" "~/go/src/templateSystem/models/themes/bare1.go"))
+(setq-default buffer-name-history '("helper.go" "*shell*" "*eshell*"))
+(setq-default command-history '((switch-to-buffer "helper.go" nil (quote force-same-window)) (kill-buffer "*shell*") (shell nil) (execute-extended-command nil "shell") (switch-to-buffer "*eshell*" nil (quote force-same-window)) (describe-key "" 1 nil) (session-initialize) (execute-extended-command nil "session-initialize")))
+(setq-default extended-command-history '("shell" "session-initialize"))
+(setq-default occur-collect-regexp-history '("\\1"))
+(setq-default serial-name-history '("/dev/ttyS0"))
+(setq-default serial-speed-history '("9600" "1200" "2400" "4800" "14400" "19200" "28800" "38400" "57600" "115200"))
